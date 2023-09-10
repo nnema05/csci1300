@@ -67,4 +67,35 @@ int main() {
     string str2 = "another string";
     cout << str + str2 << endl;
 
+    // Conditions :
+    /*
+     == equivalent
+     >= greater or equal
+     > greater than 
+     < less than 
+     <= less than or equal 
+     != not equal 
+    */
+
+   // USE FLOW CHARTS!
+   /* JUST IF
+   If condition --> true --> code block 
+        --> false (nothing happens)
+    This is only an f, no else 
+    if(a > 4) {
+        cout << "a";
+    }
+    */
+   /* IF ELSE
+   If condition --> true --> code block 
+        --> false --> code block
+   */
+    /* IF ELSE IF 
+    If conition --> true --> code block
+        false --> else if --> true --> code block 
+        false --> else if --> true --> code block
+        false --> else  --> code block
+    
+    */
+
 }
