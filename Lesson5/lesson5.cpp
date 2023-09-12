@@ -26,6 +26,7 @@ if(richter >= 8.0) {
     cout<< "many buildings damaged " <<endl;
 } else if (richter >= 4.5) {
     cout<< "damage to poorly constructed buildings " <<endl;
+// if nothing is true else is what executues
 } else {
     cout<< " no damage " <<endl;
 }
