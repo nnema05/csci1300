@@ -1,5 +1,11 @@
 
-// Question 3: function to calculate the area of the exterior walls of a house.
+/* QUESTION 3
+As a promising C++ programmer, you've been presented with an exciting opportunity by a reputable paint supplying company. 
+They are seeking your expertise to develop a user-friendly C++ program that streamlines the process for their customers to estimate the cost of purchasing paint. 
+This program will enable users to estimate the rough area of the four primary exterior walls of their house, 
+QUESTION 4: which they can later use to calculate the required volume of paint and its cost. A
+QUESTION 5: Additionally, the program offers users the option to hire painters, each with their own painting pace, to estimate the time needed to complete the painting project.
+*/
 
 #include <iostream>
 
