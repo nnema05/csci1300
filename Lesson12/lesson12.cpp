@@ -80,22 +80,30 @@ int main() {
     repeat until user guess == number 
     */
 
-    int number = rand() % 100 + 1;
-    // if you mod rand by 100, you get a range of 0 -99
-    // we want 0 - 100 so you add 1
-    int user_guess;
-    cout << "guess number between 0 and 100" << endl;
-    cin >> user_guess;
-
-    while(number != user_guess) {
-        if(user_guess > number) {
-            cout << "go lower, please guess again " << endl;
-        } else {
-            cout << "go higher, please guess again" << endl;
-        }
+   // How do I change this to play the game until the user says to stop playing
+    srand(time(nullptr));
+    bool play = true; // make sure we play at least once 
+    while(play) {
+        int number = rand() % 100 + 1;
+        // if you mod rand by 100, you get a range of 0 -99
+        // we want 0 - 100 so you add 1
+        int user_guess;
+        cout << "guess number between 0 and 100" << endl;
         cin >> user_guess;
+
+        while(number != user_guess) {
+            if(user_guess > number) {
+                cout << "go lower, please guess again " << endl;
+            } else {
+                cout << "go higher, please guess again" << endl;
+            }
+            cin >> user_guess;
+        }
+        cout << "correct: the number is " << number << endl;
+        // ask user to play again 
+        cout << "do you want to play again? 1 = yes, 0 = no " << endl;
+        cin >> play;
     }
-    cout << "correct: the number is " << number << endl;
 
 
 }
