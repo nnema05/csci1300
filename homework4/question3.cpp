@@ -46,6 +46,7 @@ int main () {
     int feeder2 = 2;
     int days_feeder_3;
     int feeder3 = 3;
+    cout << manageFeeder(feeder1, days_feeder_1);
 
     cout << "How many days ago was feeder 1 filled? " << endl;
     cin >> days_feeder_1;
