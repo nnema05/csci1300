@@ -1,3 +1,9 @@
+// You have three birdfeeders around your house, but some pesky squirrels keep eating all the birdseed! 
+// In order to make sure all three feeders are topped off, 
+    // you want to write a program to tell you when you need to fill each feeder. 
+// Feeder 1 --> Capcity 21 oz -> drain rate 3 oz/day
+// Feeder 2 --> Capacity 37 oz --> drain rate 2 oz/day
+// Feeder 3 --> Capacity 17 oz --> drain rate 4 oz/day
 
 #include <iostream>
 

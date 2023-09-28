@@ -1,5 +1,9 @@
 /*STILL NEED TO WORK*/
 
+// As a manager of a plowing company getting ready for winter, you decide to purchase several new work trucks. 
+// You have a budget of $81,350 and need to purchase at least two trucks in order to meet your target capacity.
+// You want to write a program to help you manage your purchases.
+
 #include <iostream>
 
 using namespace std;
@@ -9,34 +13,35 @@ int purchaseTruck(int budget) {
     int truck_choice2;
     int truck_choice3;
     int price;
-    int new_budget;
+    int new_budget = budget;
+
     cout << "Please enter a number from 1 to 5: " << endl;
     cin >> truck_choice1;
     switch (truck_choice1) {
         case 1:
             price = 26900;
             new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Ford F-150" << endl;
+            cout << "Congratulations! You have purchased a Ford F-150" << endl;
             break;
         case 2:
             price = 21400;
             new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Dodge RAM 1500" << endl;
+            cout << "Congratulations! You have purchased a Dodge RAM 1500" << endl;
             break;
         case 3:
             price = 24700;
             new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Chevy Silverado" << endl;
+            cout << "Congratulations! You have purchased a Chevy Silverado" << endl;
             break;
         case 4:
             price = 31200;
             new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Toyota Tundra" << endl;
+            cout << "Congratulations! You have purchased a Toyota Tundra" << endl;
             break;
         case 5:
             price = 28300;
             new_budget = budget - price;  
-            cout << "Congratulations! You have pruchase a GMC Sierra 1500" << endl;
+            cout << "Congratulations! You have purchased a GMC Sierra 1500" << endl;
             break;
         default: 
             cout << "Invalid input!" << endl;
@@ -48,28 +53,28 @@ int purchaseTruck(int budget) {
     switch (truck_choice2) {
         case 1:
             price = 26900;
-            new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Ford F-150" << endl;
+            new_budget = new_budget - price;
+            cout << "Congratulations! You have purchased a Ford F-150" << endl;
             break;
         case 2:
             price = 21400;
-            new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Dodge RAM 1500" << endl;
+            new_budget = new_budget - price;
+            cout << "Congratulations! You have purchased a Dodge RAM 1500" << endl;
             break;
         case 3:
             price = 24700;
-            new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Chevy Silverado" << endl;
+            new_budget = new_budget - price;
+            cout << "Congratulations! You have purchased a Chevy Silverado" << endl;
             break;
         case 4:
             price = 31200;
-            new_budget = budget - price;
-            cout << "Congratulations! You have pruchase a Toyota Tundra" << endl;
+            new_budget = new_budget - price;
+            cout << "Congratulations! You have purchased a Toyota Tundra" << endl;
             break;
         case 5:
             price = 28300;
-            new_budget = budget - price;  
-            cout << "Congratulations! You have pruchase a GMC Sierra 1500" << endl;
+            new_budget = new_budget - price;  
+            cout << "Congratulations! You have purchased a GMC Sierra 1500" << endl;
             break;
         default: 
             cout << "Invalid input!" << endl;
@@ -82,34 +87,36 @@ int purchaseTruck(int budget) {
         switch (truck_choice3) {
             case 1:
                 price = 26900;
-                new_budget = budget - price;
-                cout << "Congratulations! You have pruchase a Ford F-150" << endl;
+                new_budget = new_budget - price;
+                cout << "Congratulations! You have purchased a Ford F-150" << endl;
                 break;
             case 2:
                 price = 21400;
-                new_budget = budget - price;
-                cout << "Congratulations! You have pruchase a Dodge RAM 1500" << endl;
+                new_budget = new_budget - price;
+                cout << "Congratulations! You have purchased a Dodge RAM 1500" << endl;
                 break;
             case 3:
                 price = 24700;
-                new_budget = budget - price;
-                cout << "Congratulations! You have pruchase a Chevy Silverado" << endl;
+                new_budget = new_budget - price;
+                cout << "Congratulations! You have purchased a Chevy Silverado" << endl;
                 break;
             case 4:
                 price = 31200;
-                new_budget = budget - price;
-                cout << "Congratulations! You have pruchase a Toyota Tundra" << endl;
+                new_budget = new_budget - price;
+                cout << "Congratulations! You have purchased a Toyota Tundra" << endl;
                 break;
             case 5:
                 price = 28300;
-                new_budget = budget - price;  
-                cout << "Congratulations! You have pruchase a GMC Sierra 1500" << endl;
+                new_budget = new_budget - price;  
+                cout << "Congratulations! You have purchased a GMC Sierra 1500" << endl;
                 break;
             default: 
                 cout << "Invalid input!" << endl;
                 break;
         }
 
+    } else {
+        return new_budget;
     }
     
 

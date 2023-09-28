@@ -1,3 +1,6 @@
+// In mathematics, there are often many ways to decide how far two points are from each other. 
+// Write a program to calculate the distance between two points in two different ways, 
+    // depending on what the user asks for. All points are 2-dimensional, each has an x component and a y component
 
 #include <iostream>
 #include <cmath>
@@ -32,7 +35,7 @@ int main() {
     if(distance_type != 1 && distance_type != 2) {
         cout << "Invalid distance type!" << endl;
         return 0;
-        
+
     }
     cout << "Enter x1: " << endl;
     cin >> x1;
