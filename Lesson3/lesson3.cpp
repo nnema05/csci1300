@@ -9,7 +9,7 @@ int main() {
     // what is a variable?
     // location in memory where value can be stored
     // type name = value. All variables have a type!
-    int a = 5; // type is int, name is a, value is 5 
+    int a = 1; // type is int, name is a, value is 5 
     // this is illegal: int 5 = a (order matters when defining variables)
     cout << a << endl;
 
