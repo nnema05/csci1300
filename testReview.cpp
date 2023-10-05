@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
 
@@ -59,15 +60,20 @@ using namespace std;
 //     double x;
 //     x = 2 / 5;
 //     cout << x << endl;
+//      double y = 3.0/4.0 + 3 + 2/5;
+//      cout << y << endl;
+//      double z = 3 + 2;
+//      cout << z << endl;
 //     return 0;
-// } // PRINTS: 0 because the two numbers being divided are integers! and round down to 0
+// } // PRINTS: x prints as 0 because the two numbers being divided are integers! and round down to 0
+
 
 /*QUESTION 8*/
 // int main() {
 //     float x = 5.0 / 2;
 //     cout >> x >> endl;
 //     return 0;
-// } // PRINTS: compile time error 
+// } // PRINTS: compile time error, cout is in wrong diretcion
 
 /*QUESTION 9*/
 // int main() {
@@ -137,7 +143,7 @@ using namespace std;
 /*QUESTION 3*/
 // int main() {
 //     int x = 0;
-//     cout << (!x==0)<< endl;
+//     cout << (!x==0)<< endl; // prints 0!
 // }
 
 /*QUESTION 6*/
@@ -162,8 +168,20 @@ using namespace std;
 //     return 0;
 // }
 
-int main() {
-    float x = 6.626068;
-    cout << fixed << setprecision(4) << x << endl;
-    return 0;
-}
+// int main() {
+//     float x = 6.626068;
+//     cout << fixed << setprecision(4) << x << endl;
+//     return 0;
+// }
+
+// int main() {
+//     string s = "Hello world";
+//     string s2 = s.substr(1,4);
+//     cout << s2 << endl;
+    
+// }
+
+// int main() {
+//     int x = 2.4;
+//     cout << x << endl;
+// }
