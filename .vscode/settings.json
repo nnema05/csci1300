@@ -5,6 +5,10 @@
         "ostream": "cpp",
         "lesson14cpp": "cpp",
         "iomanip": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "istream": "cpp",
+        "iosfwd": "cpp",
+        "system_error": "cpp",
+        "string": "cpp"
     }
 }
