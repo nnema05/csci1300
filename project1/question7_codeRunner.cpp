@@ -1,5 +1,5 @@
 
-// Combine all three methods!
+// Combine all three methods! - FOR DECRYPTION!!
 
 #include <iostream>
 #include <cassert>

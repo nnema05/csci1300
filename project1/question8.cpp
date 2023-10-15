@@ -447,13 +447,14 @@ int main() {
         // if input is invalid (not 1-6), then tell the user its an invalid input and ask again 
             // will ask again ask long as the input is not 6 due to while loop!
         // or if cin.fails (an input we do not expect like a character instead of integer)
-            // then cin
+            // Cin fail is a function that returns true when the user input fails (it is something unexpected)
         while(cin.fail() || input < 1 || input > 6) { 
             
                 cout << "Invalid input" << endl; 
         
                 cin.clear(); // if this happens we have to cin.clear (reset cin.fail which is true right now to false)
                 cin.ignore(10000,'\n'); // cin.ignore tells computer to ignore first 10000 characters in varaible or up until you hit a new line
+                    // ask cin to ignore the characters in the cin buffer: Ignore function is used to skip(discard/throw away) characters in the input stream. 
                 /// ASk user again for choice 
                 cin >> input; // read what user selects into the input 
 

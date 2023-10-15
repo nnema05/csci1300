@@ -145,18 +145,14 @@ string getMethod4ShiftAmount(string message, string key1, string key2) {
     int shift_value = 0;
     int shift_value2 = 0;
     int shift_value3 = 0;
-    char encrypted_character1;
-    char encrypted_character2;
-    char encrypted_character3;
-    string encrypted_message;
 
     // For the first character and every 3rd character after that 
     for(int i = 0; i < message.length(); i+=3) {
         // Do method 1 (shift char to right by 1)
         // for every 3rd character in string starting from first, shift the value by 1 (run shiftCharEncrypt function)
-        // then add that shifted character to encrypted message!
+        // then replace the shifted character in the original message at the same spot 
         message[i] = shiftCharEncrypt(message[i], 1);
-        // encrypted_message = encrypted_message + encrypted_character1;
+        
     }
 
     // run the getMethod2ShiftAmount function with key1 as argument 
@@ -166,11 +162,9 @@ string getMethod4ShiftAmount(string message, string key1, string key2) {
     for(int j = 1; j < message.length(); j+=3) {
         // for every character in string, shift the value by result from the getMethod2ShiftAmount function
             // (run shiftCharEncrypt function)
-        // then add that shifted character to encrypted message!
+        // then replace the shifted character in the original message at the same spot 
         message[j] = shiftCharEncrypt(message[j], shift_value2);
-        // encrypted_character2 = shiftCharEncrypt(message[j], shift_value2);
-            // cout << encrypted_character << endl;
-        // encrypted_message = encrypted_message + encrypted_character2;
+
     }
 
     // run the getMethod3ShiftAmount function with key1 and key2 as argument 
@@ -180,10 +174,8 @@ string getMethod4ShiftAmount(string message, string key1, string key2) {
     for(int k = 2; k < message.length(); k+=3) {
         // for every character in string, shift the value by result from the getMethod3ShiftAmount function
             // (run shiftCharEncrypt function)
-        // then add that shifted character to encrypted message!
+        // then replace the shifted character in the original message at the same spot 
         message[k] = shiftCharEncrypt(message[k], shift_value3);
-        // cout << encrypted_character << endl;
-        // encrypted_message = encrypted_message + encrypted_character3;
     }
     return message;
 }
@@ -294,9 +286,7 @@ int main() {
     cin >> method_choice;
 
     string encrypted_message = encryptMessage(message, method_choice, key1, key2);
-    // assert(encryptChar('a', 2, "hello", "world") == 'h');
-    // assert(encryptChar('a', 3, "hello", "world") == 'd');
-    // assert(encryptChar('y', 3, "rock", "road") == 'a');
+
 
     cout << "The encrypted message is: " << encrypted_message;
 
