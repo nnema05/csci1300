@@ -1,0 +1,2 @@
+last value = 0
+sum = 0
