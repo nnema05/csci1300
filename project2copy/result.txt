@@ -1,0 +1,15 @@
+
+Player name: a
+Character: GoofyAh_George
+Stamina: 3
+Gold: 19
+[Breezy Butterscotch]   [Caramel Comet]   [Bubblegum Blast]   
+[Robbers Repel]   [Treasure Hunter's Truffle]   [Caramel Comet]   
+[Treasure Hunter's Truffle]   
+
+Player name: b
+Character: Villanous_Victoria
+Stamina: 29
+Gold: 52
+[Breezy Butterscotch]   [Fearsome Fudge]   [Lucky Licorice]   
+[Robbers Repel]   [Robbers Repel]   

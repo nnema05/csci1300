@@ -1,0 +1,2 @@
+character name|stamina|gold|candies
+Toffee_Todd|200|20|Lucky Licorice,Breezy Butterscotch

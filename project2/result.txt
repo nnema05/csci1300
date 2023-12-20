@@ -1,0 +1,15 @@
+
+Player name: nandini
+Character: Toffee_Todd
+Stamina: 20
+Gold: 62
+[Toxic Taffy]   [Bubblegum Blast]   [Caramel Comet]   
+[Lucky Licorice]   [Lucky Licorice]   [Bubblegum Blast]   
+[Caramel Comet]   [Toxic Taffy]   
+
+Player name: b
+Character: JellyBean_Jane
+Stamina: 28
+Gold: 0
+[Breezy Butterscotch]   [Lucky Licorice]   [Fearsome Fudge]   
+[Lucky Licorice]   [Caramel Comet]   [Toxic Taffy]   

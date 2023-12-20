@@ -85,6 +85,7 @@
         "stop_token": "cpp",
         "thread": "cpp",
         "__memory": "cpp",
-        "filesystem": "cpp"
+        "filesystem": "cpp",
+        "question2cpp": "cpp"
     }
 }

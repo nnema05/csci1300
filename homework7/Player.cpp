@@ -169,7 +169,6 @@ bool Player::addCandy(Candy candy) {
         for(int i = 0; i < 4; i++) {
             if(_inventory[i].name == "") {
                 _inventory[i] = candy;
-                // cout << _inventory[i].name << endl;
                 _candy_amount++;
                 added = true;
                 break;
